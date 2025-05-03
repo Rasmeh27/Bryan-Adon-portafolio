@@ -1,22 +1,25 @@
 # React + Vite
 
-📸 Bryan Adon - Portafolio de Fotografía
-Este es el sitio web oficial del fotógrafo Bryan Adon, desarrollado como una landing page responsiva con React y TailwindCSS. La plataforma muestra su trabajo fotográfico, servicios ofrecidos y un formulario de contacto funcional.
+# 📸 Bryan Adon - Portafolio de Fotografía
 
-🧰 Tecnologías utilizadas
-⚛️ React.js – Framework principal
+Este es el sitio web oficial del fotógrafo **Bryan Adon**, diseñado como una **landing page responsiva** desarrollada con **React** y **TailwindCSS**. Presenta su trabajo, servicios fotográficos y un formulario de contacto funcional conectado a EmailJS.
 
-🎨 TailwindCSS – Estilización con clases utilitarias
+---
 
-📦 Vite – Herramienta de bundling rápida
+## 🧰 Tecnologías utilizadas
 
-📸 yet-another-react-lightbox – Galería con visualización interactiva
+- ⚛️ **React.js** – Framework principal
+- 🎨 **TailwindCSS** – Estilización con clases utilitarias
+- ⚡ **Vite** – Herramienta de desarrollo rápida
+- 🖼️ **yet-another-react-lightbox** – Galería interactiva de imágenes
+- 🧱 **react-masonry-css** – Distribución tipo grid estilo Pinterest
+- 📩 **EmailJS** – Envío de formularios por correo
+- 🔗 **React Icons** – Íconos sociales para WhatsApp e Instagram
 
-🧱 react-masonry-css – Distribución tipo grid para galería
+---
 
-📩 EmailJS – Envío de formularios por correo electrónico
+## 🗂️ Estructura del proyecto
 
-🖼️ React Icons – Íconos de redes sociales
 
 📁 src/
 ├── assets/               → Imágenes del portafolio
@@ -30,43 +33,19 @@ Este es el sitio web oficial del fotógrafo Bryan Adon, desarrollado como una la
 ├── App.jsx               → Composición general
 └── main.jsx              → Entry point
 
-🧭 Funcionalidades destacadas
-✅ Responsive Design: completamente adaptado a móvil, tablet y escritorio.
 
-✅ Navegación suave: scroll fluido entre secciones.
+---
 
-✅ Animaciones al hacer scroll: con AOS.
+## 🚀 Funcionalidades
 
-✅ Galería expandible: al estilo Instagram.
+- ✅ Diseño **100% responsivo** para escritorio, tablet y móvil
+- ✅ **Menú hamburguesa** para navegación móvil
+- ✅ Scroll suave entre secciones
+- ✅ Galería expandible tipo Instagram
+- ✅ Animaciones suaves con AOS
+- ✅ Formulario de contacto conectado a EmailJS
 
-✅ Formulario funcional con EmailJS.
-
-✅ Menú hamburguesa en mobile.
-
-⚙️ Instalación
-1. Clona el repositorio:
-git clone https://github.com/tuusuario/portafolio-bryan-adon.git
-cd portafolio-bryan-adon
-
-2. instala dependencias
-   npm install
-
-3. Ejecuta el proyecto
-   npm run dev
-
-
-📬 Configuración de EmailJS
-Crea una cuenta en EmailJS
-
-Crea un servicio, plantilla y copia tu:
-
-Service ID
-
-Template ID
-
-Public Key
-
-Configura estos valores en el archivo del formulario (ContactSection.jsx) usando emailjs.send(...)
+---
 
 
 👨‍💻 Autor
