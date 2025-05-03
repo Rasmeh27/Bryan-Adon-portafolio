@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.my-masonry-grid_column {
+    background-clip: padding-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
