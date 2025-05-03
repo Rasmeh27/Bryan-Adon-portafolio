@@ -1,12 +1,59 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📸 Bryan Adon - Portafolio de Fotografía
 
-Currently, two official plugins are available:
+Este es el sitio web oficial del fotógrafo **Bryan Adon**, diseñado como una **landing page responsiva** desarrollada con **React** y **TailwindCSS**. Presenta su trabajo, servicios fotográficos y un formulario de contacto funcional conectado a EmailJS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React.js** – Framework principal
+- 🎨 **TailwindCSS** – Estilización con clases utilitarias
+- ⚡ **Vite** – Herramienta de desarrollo rápida
+- 🖼️ **yet-another-react-lightbox** – Galería interactiva de imágenes
+- 🧱 **react-masonry-css** – Distribución tipo grid estilo Pinterest
+- 📩 **EmailJS** – Envío de formularios por correo
+- 🔗 **React Icons** – Íconos sociales para WhatsApp e Instagram
+
+---
+
+## 🗂️ Estructura del proyecto
+
+
+📁 src/
+├── assets/               → Imágenes del portafolio
+├── components/
+│   ├── Header.jsx        → Navegación superior responsiva
+│   ├── HeroSection.jsx   → Sobre mí + servicios + frase
+│   ├── GallerySection.jsx→ Galería interactiva de fotos
+│   ├── ContactSection.jsx→ Formulario de contacto con EmailJS
+│   ├── Footer.jsx        → Pie de página con redes
+│   └── PostCard.jsx      → Componente reutilizable de imagen
+├── App.jsx               → Composición general
+└── main.jsx              → Entry point
+
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Diseño **100% responsivo** para escritorio, tablet y móvil
+- ✅ **Menú hamburguesa** para navegación móvil
+- ✅ Scroll suave entre secciones
+- ✅ Galería expandible tipo Instagram
+- ✅ Animaciones suaves con AOS
+- ✅ Formulario de contacto conectado a EmailJS
+
+---
+
+
+👨‍💻 Autor
+Bryan Adon – Fotógrafo
+
+Luis Herasme – Desarrollo y diseño web
+@LuisHerasme
+
+
+
+
