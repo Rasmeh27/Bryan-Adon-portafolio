@@ -1,12 +1,80 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 Bryan Adon - Portafolio de Fotografía
+Este es el sitio web oficial del fotógrafo Bryan Adon, desarrollado como una landing page responsiva con React y TailwindCSS. La plataforma muestra su trabajo fotográfico, servicios ofrecidos y un formulario de contacto funcional.
 
-Currently, two official plugins are available:
+🧰 Tecnologías utilizadas
+⚛️ React.js – Framework principal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 TailwindCSS – Estilización con clases utilitarias
 
-## Expanding the ESLint configuration
+📦 Vite – Herramienta de bundling rápida
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📸 yet-another-react-lightbox – Galería con visualización interactiva
+
+🧱 react-masonry-css – Distribución tipo grid para galería
+
+📩 EmailJS – Envío de formularios por correo electrónico
+
+🖼️ React Icons – Íconos de redes sociales
+
+📁 src/
+├── assets/               → Imágenes del portafolio
+├── components/
+│   ├── Header.jsx        → Navegación superior responsiva
+│   ├── HeroSection.jsx   → Sobre mí + servicios + frase
+│   ├── GallerySection.jsx→ Galería interactiva de fotos
+│   ├── ContactSection.jsx→ Formulario de contacto con EmailJS
+│   ├── Footer.jsx        → Pie de página con redes
+│   └── PostCard.jsx      → Componente reutilizable de imagen
+├── App.jsx               → Composición general
+└── main.jsx              → Entry point
+
+🧭 Funcionalidades destacadas
+✅ Responsive Design: completamente adaptado a móvil, tablet y escritorio.
+
+✅ Navegación suave: scroll fluido entre secciones.
+
+✅ Animaciones al hacer scroll: con AOS.
+
+✅ Galería expandible: al estilo Instagram.
+
+✅ Formulario funcional con EmailJS.
+
+✅ Menú hamburguesa en mobile.
+
+⚙️ Instalación
+1. Clona el repositorio:
+git clone https://github.com/tuusuario/portafolio-bryan-adon.git
+cd portafolio-bryan-adon
+
+2. instala dependencias
+   npm install
+
+3. Ejecuta el proyecto
+   npm run dev
+
+
+📬 Configuración de EmailJS
+Crea una cuenta en EmailJS
+
+Crea un servicio, plantilla y copia tu:
+
+Service ID
+
+Template ID
+
+Public Key
+
+Configura estos valores en el archivo del formulario (ContactSection.jsx) usando emailjs.send(...)
+
+
+👨‍💻 Autor
+Bryan Adon – Fotógrafo
+
+Luis Herasme – Desarrollo y diseño web
+@LuisHerasme
+
+
+
+
