@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
         {/* Columna izquierda */}
         <div className="flex flex-col items-center gap-4 md:mr-20">
-          <PostCard img={"/src/assets/model2.png"} />
+          <PostCard img={"/images/model2.png"} />
           <blockquote className="border-l-4 border-black pl-4 text-gray-800 text-lg sm:text-xl font-medium mr-27">
             <span className="text-2xl mr-2">“</span>
             Luz, estilo y<br />
@@ -44,7 +44,7 @@ export default function HeroSection() {
             {/* EVENTOS */}
             <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
               <img
-                src="/src/assets/events.jpg"
+                src="/images/events.jpg"
                 alt="Eventos"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -58,7 +58,7 @@ export default function HeroSection() {
             {/* RETRATO */}
             <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
               <img
-                src="/src/assets/portrait.png"
+                src="/images/portrait.png"
                 alt="Retrato"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -74,12 +74,12 @@ export default function HeroSection() {
         {/* Columna derecha */}
         <div className="flex flex-col gap-10 items-center md:ml-20">
           <PostCard
-            img={"/src/assets/model1.png"}
+            img={"/images/model1.png"}
             rotate="rotate-6"
             iconColor="text-black"
           />
           <PostCard
-            img={"/src/assets/model3.png"}
+            img={"/images/model3.png"}
             rotate="-rotate-6"
             iconColor="text-pink-500"
           />

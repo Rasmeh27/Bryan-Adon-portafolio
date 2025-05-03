@@ -8,7 +8,7 @@ export default function Footer() {
 
         {/* Columna 1: Logo + info */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
-          <img src="/src/assets/logo.png" alt="Logo" className="w-16 h-16" />
+          <img src="/images/logo.png" alt="Logo" className="w-16 h-16" />
           <div className="space-y-1">
             <h4 className="text-white font-semibold">Bryan Adon</h4>
             <p>Fotógrafo, editor y filmmaker</p>
