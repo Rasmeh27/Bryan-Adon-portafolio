@@ -28,12 +28,14 @@ export default function Footer() {
         <div className="space-y-2">
           <h4 className="text-white font-semibold mb-2">CONTACTO</h4>
           <p className="flex justify-center md:justify-start items-center gap-2">
-            <FaWhatsapp className="text-green-500 text-xl" />
-            800-000-0000
+            <a href=""><FaWhatsapp className="text-green-500 text-xl" />
+            +1 829-742-8634</a>
+            
           </p>
           <p className="flex justify-center md:justify-start items-center gap-2">
-            <FaInstagram className="text-pink-500 text-xl" />
-            @BryanAdon
+            <a href="https://www.instagram.com/bryantadonv/"><FaInstagram className="text-pink-500 text-xl" />
+            @bryantadonv</a>
+            
           </p>
         </div>
       </div>
