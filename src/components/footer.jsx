@@ -5,7 +5,6 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white py-10 px-6 sm:px-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-start text-sm text-center md:text-left">
-
         {/* Columna 1: Logo + info */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
           <img src="/images/logo.png" alt="Logo" className="w-16 h-16" />
@@ -25,18 +24,30 @@ export default function Footer() {
         </div>
 
         {/* Columna 3: contacto */}
-        <div className="space-y-2">
+        <div className="space-y-3">
           <h4 className="text-white font-semibold mb-2">CONTACTO</h4>
-          <p className="flex justify-center md:justify-start items-center gap-2">
-            <a href=""><FaWhatsapp className="text-green-500 text-xl" />
-            +1 829-742-8634</a>
-            
-          </p>
-          <p className="flex justify-center md:justify-start items-center gap-2">
-            <a href="https://www.instagram.com/bryantadonv/"><FaInstagram className="text-pink-500 text-xl" />
-            @bryantadonv</a>
-            
-          </p>
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/18297428634"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center md:justify-start items-center gap-2 text-white hover:text-green-400"
+          >
+            <FaWhatsapp className="text-green-500 text-xl" />
+            +1 829-742-8634
+          </a>
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/bryantadonv/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center md:justify-start items-center gap-2 text-white hover:text-pink-400"
+          >
+            <FaInstagram className="text-pink-500 text-xl" />
+            @bryantadonv
+          </a>
         </div>
       </div>
     </footer>
