@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import photographer from "../assets/fotographer.png";
-import logo from "../assets/logo.png";
+import photographer from "/images/fotographer.png";
+import logo from "/images/logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
