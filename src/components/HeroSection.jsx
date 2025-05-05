@@ -46,6 +46,7 @@ export default function HeroSection() {
               <img
                 src="/images/events.jpg"
                 alt="Eventos"
+                loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
@@ -60,6 +61,7 @@ export default function HeroSection() {
               <img
                 src="/images/portrait.png"
                 alt="Retrato"
+                loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">

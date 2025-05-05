@@ -30,6 +30,7 @@ const Header = () => {
           <img
             src={photographer}
             alt="photographer"
+            loading="lazy"
             className="hidden md:block w-250 h-100 object-cover transition-all duration-500"
           />
         )}
@@ -41,6 +42,7 @@ const Header = () => {
             <img
               src={logo}
               alt="logo"
+              loading="lazy"
               className="block md:hidden w-24 h-24 mx-auto transition-all duration-500"
             />
 
@@ -48,6 +50,7 @@ const Header = () => {
             <img
               src={logo}
               alt="logo"
+              loading="lazy"
               className="hidden md:block w-48 h-48 transition-all duration-500"
             />
           </>
