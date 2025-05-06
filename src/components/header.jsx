@@ -20,6 +20,7 @@ const Header = () => {
 
   return (
     <header
+      id="header"
       className={`bg-black text-white transition-all duration-500 sticky top-0 z-50 ${
         scrolled ? "py-2" : "py-6"
       }`}
@@ -64,7 +65,7 @@ const Header = () => {
         >
           <ul className="flex space-x-8 text-white text-xl">
             <li>
-              <a href="#inicio" className="hover:text-red-500">
+              <a href="#header" className="hover:text-red-500">
                 Inicio
               </a>
             </li>
