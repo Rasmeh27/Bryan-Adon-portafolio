@@ -24,14 +24,14 @@ const Header = () => {
         scrolled ? "py-2" : "py-6"
       }`}
     >
-      <div className="flex justify-between items-center px-4 md:px-10 transition-all duration-500">
+      <div className="flex justify-between items-center px-4 md:px-10 w-full">
         {/* Imagen del fotógrafo - solo en desktop y no scrolled */}
         {!scrolled && (
           <img
             src={photographer}
             alt="photographer"
             loading="lazy"
-            className="hidden md:block w-250 h-100 object-cover transition-all duration-500"
+            className="hidden md:block w-[730px] h-auto object-cover transition-all duration-500"
           />
         )}
 
@@ -43,7 +43,7 @@ const Header = () => {
               src={logo}
               alt="logo"
               loading="lazy"
-              className="block md:hidden w-24 h-24 mx-auto transition-all duration-500"
+              className="block md:hidden w-24 h-24"
             />
 
             {/* Desktop: logo grande */}
@@ -51,7 +51,7 @@ const Header = () => {
               src={logo}
               alt="logo"
               loading="lazy"
-              className="hidden md:block w-48 h-48 transition-all duration-500"
+              className="hidden md:block w-48 h-48"
             />
           </>
         )}
