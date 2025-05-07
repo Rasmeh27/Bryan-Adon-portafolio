@@ -6,7 +6,7 @@ import logo from "/images/logo.png";
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
+  // Estado para el menú móvil
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 50);
