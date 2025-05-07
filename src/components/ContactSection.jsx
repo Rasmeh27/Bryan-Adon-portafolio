@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import sweetalert from "sweetalert2";
+import Swal from "sweetalert2";
+import { IconBase } from "react-icons";
 
 export default function ContactSection() {
   const form = useRef();
@@ -17,12 +20,19 @@ export default function ContactSection() {
       
       .then(
         (result) => {
-          alert("Mensaje enviado correctamente!");
+          Swal.fire({
+            title: "¡Mensaje enviado!",
+            text: "Gracias por tu mensaje, me pondré en contacto contigo pronto.",
+            icon: "success",
+          });
           form.current.reset(); // limpia el formulario
         },
         (error) => {
-          alert("Error al enviar el mensaje, intenta nuevamente.");
-          console.error(error.text);
+          Swal.fire({
+            title: "Error",
+            text: "Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.",
+            icon: "error",
+          });
         }
       );
   };

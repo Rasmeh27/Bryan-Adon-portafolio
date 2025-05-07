@@ -33,7 +33,7 @@ export default function GallerySectionPortrait() {
   const slides = images.map((src) => ({ src }));
 
   return (
-    <section id="gallery" className="bg-white py-5 px-8">
+    <section id="portrait" className="bg-white py-5 px-8">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-2xl font-semibold text-black mb-6">Retratos</h3>
         <hr className="mb-8" />

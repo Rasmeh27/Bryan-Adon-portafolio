@@ -49,27 +49,81 @@ export default function HeroSection() {
                 loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
+              <a href="#gallery">
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                 <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
                   EVENTOS
                 </span>
               </div>
+              </a>
             </div>
 
             {/* RETRATO */}
             <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
+              
               <img
                 src="/images/portrait.png"
                 alt="Retrato"
                 loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
+              <a href="#portrait">
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                 <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
                   RETRATO
                 </span>
               </div>
+              </a>
+              
+              
             </div>
+
+           {/* Bodas */}
+           <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
+              <img
+                src="/images/boda.png"
+                alt="Retrato"
+                loading="lazy"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
+                  BODAS
+                </span>
+              </div>
+            </div>
+
+
+            {/* Cumpleaños */}
+           <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
+              <img
+                src="/images/birthday.png"
+                alt="Retrato"
+                loading="lazy"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
+                  CUMPLES
+                </span>
+              </div>
+            </div>
+
+            {/* 15 */}
+           <div className="relative w-full h-56 md:h-72 overflow-hidden group rounded shadow-lg">
+              <img
+                src="/images/quince.png"
+                alt="Retrato"
+                loading="lazy"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
+                  15
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
 
